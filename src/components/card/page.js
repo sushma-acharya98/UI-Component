@@ -56,8 +56,8 @@ const Card = () => {
 								/>
 								<div className="content_holder">
 									<h3>Get Mentored & Supported</h3>
-									<div className='subtitle'>You're not learning alone.</div>
-									<p>Stuck or need feedback? SkillShikshya’s community of mentors and learners has your back with live support, interactive discussions, and expert insights. You’re never on your own.</p>
+									<div className='subtitle'>You&apos;re not learning alone.</div>
+									<p>Stuck or need feedback? SkillShikshya’s community of mentors and learners has your back with live support, interactive discussions, and expert insights. You&apos;re never on your own.</p>
 								</div>
 							</div>
 							<div className="column column--grey">
