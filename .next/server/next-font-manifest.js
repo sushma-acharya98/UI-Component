@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/ramesh/Desktop/sushmajs/Virit-taskB/my-code-clone-taskvirit/src/app/layout":["static/media/c7f848bed9dd25a3-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';

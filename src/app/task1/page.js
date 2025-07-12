@@ -1,5 +1,5 @@
 
-import TestimonialBanner from '../../components/TestimonialBanner/Page';
+import TestimonialBanner from '../../components/testimonialBanner/page';
 
 const page = () => {
     return (
