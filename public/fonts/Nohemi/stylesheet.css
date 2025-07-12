@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Nohemi';
+    src: url('Nohemi-Bold.eot');
+    src: url('Nohemi-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Nohemi-Bold.woff2') format('woff2'),
+        url('Nohemi-Bold.woff') format('woff'),
+        url('Nohemi-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

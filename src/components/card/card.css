@@ -1,0 +1,117 @@
+.fourcolumn_wrapper {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.fourcolumn_row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 40px;
+}
+
+.column {
+    max-width: calc(50% - 16px);
+    width: 100%;
+    padding: 58px 35px 42px 210px;
+    background: #F45B5B;
+    color: #FAFAFA;
+    border-radius: 30px;
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.column img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0 0 -75px -83px;
+    pointer-events: none;
+}
+
+.column--red {
+    background: #F45B5B;
+    text-align: right;
+}
+
+.column--blue {
+    background: #5492A0;
+    padding: 58px 200px 42px 35px;
+}
+
+.column--blue img {
+    left: auto;
+    right: 0;
+    margin: 0 -3px -91px 0;
+}
+
+.column--purple {
+    background: #6C64A8;
+    text-align: right;
+    padding: 58px 35px 42px 135px;
+}
+
+.column--purple img {
+    margin: 0 0 -62px -84px;
+}
+
+.column--purple .content_holder .subtitle + p {
+    padding-left: 110px;
+}
+
+.column--grey {
+    background: #A88964;
+    padding: 58px 185px 42px 35px;
+}
+
+.column--grey img {
+    left: auto;
+    right: 0;
+    margin: 0 -46px -60px 0;
+}
+
+/* .title_holder p {
+    font-weight: 500;
+    font-size: 24px;
+    color: #414141;
+    margin: 0 0 20px;
+}
+
+.title_holder h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    color: #1DA077;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 48px;
+}
+
+.title_holder h1 span {
+    color: #000;
+} */
+
+.column--red .content_holder {
+    text-align: right;
+}
+
+.content_holder h3 {
+    /* font-family: 'Nohemi'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    color: #FAFAFA;
+    margin: 0 0 10px;
+}
+
+.content_holder .subtitle {
+    /* font-family: 'Outfit'; */
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    margin: 0 0 32px;
+}
+
