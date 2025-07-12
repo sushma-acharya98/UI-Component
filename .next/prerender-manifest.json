@@ -1,59 +1,6 @@
 {
   "version": 4,
   "routes": {
-    "/favicon.ico": {
-      "initialHeaders": {
-        "cache-control": "public, max-age=0, must-revalidate",
-        "content-type": "image/x-icon",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
-      },
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/favicon.ico",
-      "dataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/task1": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/task1",
-      "dataRoute": "/task1.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/task2": {
       "experimentalBypassFor": [
         {
@@ -102,6 +49,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/task1": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/task1",
+      "dataRoute": "/task1.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/task3": {
       "experimentalBypassFor": [
         {
@@ -125,13 +96,42 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/favicon.ico": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "image/x-icon",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/favicon.ico",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "800e1898d19e29e753355a63d657ab4b",
-    "previewModeSigningKey": "0009412791071d1fa074debe51a22e09c96da643657c55cd1dfe07b829cf120b",
-    "previewModeEncryptionKey": "664900b648ae43ff6961d46d32741fcb56bc340f366b965c934887f0b5330711"
+    "previewModeId": "e721b70486d9581e2cbeb1bbab06e191",
+    "previewModeSigningKey": "ebb5cd1cb0994397746d01e815161c7a5ac9fb214cdc6ed16d51c81666c57d7a",
+    "previewModeEncryptionKey": "c7634a66868274be6be91255b989ce570d3b3ca9a96bf9b196bc6e7d0d8c17b6"
   }
 }

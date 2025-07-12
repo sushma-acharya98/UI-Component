@@ -3,7 +3,7 @@ import Image from 'next/image';
 import "./card.css";
 
 const Card = () => {
-	return(
+	return (
 		<>
 			<div className='fourcolumn_wrapper'>
 				<div className='title_holder'>
@@ -27,7 +27,7 @@ const Card = () => {
 								<div className="content_holder">
 									<h3>Start with Clarity</h3>
 									<div className='subtitle'>Step into a better learning path.</div>
-									<p>Overwhelmed by too many learning options? SkillShikshya provides a clear, curated roadmap from the start. Whether you're a beginner or upskilling, we have a path tailored to your growth.</p>
+									<p>Overwhelmed by too many learning options? SkillShikshya provides a clear, curated roadmap from the start. Whether you&apos;re a beginner or upskilling, we have a path tailored to your growth.</p>
 								</div>
 							</div>
 							<div className="column column--blue">
@@ -81,7 +81,5 @@ const Card = () => {
 			</div>
 		</>
 	)
-
-	// BEM = Block, Element, M Modifier
 }
 export default Card;
