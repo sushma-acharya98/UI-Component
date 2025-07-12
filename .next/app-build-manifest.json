@@ -17,6 +17,18 @@
       "static/chunks/main-app.js",
       "static/css/app/task1/page.css",
       "static/chunks/app/task1/page.js"
+    ],
+    "/task2/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/task2/page.css",
+      "static/chunks/app/task2/page.js"
+    ],
+    "/task3/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/task3/page.css",
+      "static/chunks/app/task3/page.js"
     ]
   }
 }
